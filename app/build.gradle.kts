@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("com.android.applocation")
     id("org.jetbrains.kotlin.android")
-    id("com.google.devtools.ksp") version "1.8.22-1.0.11"
+    id("com.google.devtools.ksp") version "2.0.21-1.0.26"
 }
 
 android {
