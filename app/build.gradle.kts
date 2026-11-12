@@ -1,7 +1,11 @@
 plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.kotlin.compose)
     id("com.android.applocation")
     id("org.jetbrains.kotlin.android")
-    id("com.google.devtools.ksp")
+    id("com.google.devtools.ksp") version "1.8.22-1.0.11"
 }
 
 android {
@@ -45,7 +49,7 @@ dependencies {
     ksp(libs.room.compiler)
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
-    implementation(libs.navigation.compose)
+
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
