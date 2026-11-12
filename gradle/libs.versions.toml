@@ -37,4 +37,6 @@ lifecycle-compose = { module = "android.navigation:navigation-compose", version 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbarins.kotlin.android", version.ref = "agp"}
+ksp = { id = "com.google.devtools.ksp", version.ref = "kspver" }
 
