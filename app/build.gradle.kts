@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
     implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
