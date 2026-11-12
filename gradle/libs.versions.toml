@@ -32,7 +32,7 @@ room-runtime = { module = "android.room:room-runtime", version.ref = "room" }
 room-ktx = { module = "android.room:room-ktx", version.ref = "room" }
 room-compiler = { module = "android.room:room-compiler", version.ref = "room" }
 lifecycle-viewmodel-compose = { module = "android.lifecycle:lifecycle-viewmodel-compose", version = "2.10.0"}
-
+lifecycle-compose = { module = "android.navigation:navigation-compose", version = "2.9.6"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
