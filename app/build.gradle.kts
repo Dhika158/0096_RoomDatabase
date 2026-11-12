@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.prak8"
+    namespace = "com.example.prak9lagi"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.prak8"
+        applicationId = "com.example.prak9lagi"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -39,12 +39,6 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.compose.icons)
-    implementation(libs.bundles.room)
-    ksp(libs.room.compiler)
-    implementation(libs.lifecycle.viewmodel.compose)
-    implementation(libs.lifecycle.runtime.compose)
-
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
@@ -57,4 +51,18 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    //icons
+    implementation(libs.compose.icons)
+
+    //Room
+    implementation(libs.bundles.room)
+    ksp(libs.room.compiler)
+
+    //ViewModel
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
+
+    // Navigasi
+    implementation(libs.navigation.compose)
 }

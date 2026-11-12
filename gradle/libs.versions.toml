@@ -9,7 +9,6 @@ activityCompose = "1.13.0"
 composeBom = "2026.02.01"
 room = "2.8.4"
 kspver = "2.3.13"
-room3Common = "3.0.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,7 +32,6 @@ compose-icons = { module = "androidx.compose.material:material-icons-extended" }
 lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
 lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version = "2.9.6" }
-androidx-room3-common = { group = "androidx.room3", name = "room3-common", version.ref = "room3Common" }
 
 [bundles]
 room = ["room-runtime", "room-ktx"]
